@@ -19,3 +19,5 @@ $ vue add unit-jest
 
 $ vue add storybook
 $ npm run storybook:serve
+
+$ npm install image-webpack-loader
