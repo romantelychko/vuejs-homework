@@ -16,7 +16,7 @@ export default {
        *
        * @event click
        */
-      this.$emit('click')
+      //this.$emit('click')
     }
   }
 }
