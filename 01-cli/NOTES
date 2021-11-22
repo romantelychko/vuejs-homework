@@ -1,4 +1,3 @@
-
 $ sudo npm i -g @vue/cli
 $ vue create hello-world
 
@@ -13,6 +12,9 @@ Vue CLI v4.5.15
 ? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
 ? Save this as a preset for future projects? (y/N) n
 
-
 $ cd hello-world/
 $ npm run serve
+
+
+$ vue add storybook
+$ npm run storybook:serve

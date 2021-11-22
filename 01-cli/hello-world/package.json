@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
     "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
-    "lint": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service lint"
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service lint",
+    "storybook:build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service storybook:build -c config/storybook",
+    "storybook:serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -13,6 +15,9 @@
     "vue-class-component": "^8.0.0-0"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/vue3": "^6.0.26",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -23,6 +28,7 @@
     "@vue/eslint-config-typescript": "^7.0.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0",
-    "typescript": "~4.1.5"
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-storybook": "~2.1.0"
   }
 }
