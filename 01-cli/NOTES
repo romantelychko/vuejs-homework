@@ -15,6 +15,7 @@ Vue CLI v4.5.15
 $ cd hello-world/
 $ npm run serve
 
+$ vue add unit-jest
 
 $ vue add storybook
 $ npm run storybook:serve
