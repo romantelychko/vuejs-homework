@@ -10,6 +10,9 @@
     "storybook:build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service storybook:serve -p 6006 -c config/storybook"
   },
+  "engines": {
+    "node": ">=17.1"
+  },
   "dependencies": {
     "core-js": "^3.6.5",
     "image-webpack-loader": "^8.0.1",
